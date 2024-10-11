@@ -22,6 +22,17 @@ Feature extraction layers: These include convolution layers for image data and r
 Task layers or decision layers. These are normally densely connected layers. They map features from the feature extraction layers to outputs that are specific to the task.
 ## Densely connected layers
 Task layers are usually realised through densely connected layers (dense layers). Dense layers are the most expressive (in terms of the functions that can be approximated), but they involve more parameters. Therefore they are generally used only in the last couple of layers of a network.
+Below is an example model consisting exclusively of dense layers
+```python
+model = tf.keras.models.Sequential()
+model.add(tf.keras.Input(shape=(16,)))
+model.add(tf.keras.layers.Dense(32, activation='relu'))
+model.add(tf.keras.layers.Dense(32))
+
+model.summary()
+
+tf.keras.utils.plot_model(model, show_shapes=True)
+```
  ## The right activation function
 
 The output of the last task layer should be in the form that fits the task.
