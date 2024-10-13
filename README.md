@@ -1,7 +1,7 @@
 # Neural-Network
 Use Neural network for classification
 This is the project I did for my assignment of the course Deep Learning I took in my Master. I want to summarize basic knowledge of Neural Network for people to understand and show my project step by step so that everybody can understand how to fit a Neural Network to a classification problem.
-* Data was taken from (https://zenodo.org/records/7711412). This dataset was acquired in a retrospective study from a cohort of pediatric patients admitted with abdominal pain to Children’s Hospital St. Hedwig in Regensburg, Germany
+* Data was taken from (https://zenodo.org/records/7711412). This dataset was acquired in a retrospective study from a cohort of pediatric patients admitted with abdominal pain to Children’s Hospital St. Hedwig in Regensburg, Germany and I uploaded the dataset in the repository (dataset.xlsx)
 * The model used is Neural Network with 2 hidden layers with 64 and 32 nodes respectively, and the activation function is reLU activation
 Now I will summarize basic knowledge of using Deep Learning (specifically Neural Network) for classfication problems.
 ## Deep learning layers
